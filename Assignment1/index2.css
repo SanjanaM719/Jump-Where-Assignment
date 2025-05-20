@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lists{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.first{
+    margin: 10px 250px;
+}
+.fst{
+    
+    padding: 20px;
+    background-color: rgb(217, 213, 213);
+}
+.snd{
+   
+    padding: 20px;
+    background-color: rgb(217, 213, 213);
+}
+.trd{
+   
+    padding: 20px;
+    background-color: rgb(217, 213, 213);
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+}
+.inside-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px 350px;
+}
+.second{
+    margin: auto;
+}
+.inside-container div{
+    padding: 30px;
+}
+.inside-container h2{
+    padding: 20px 5px;
+}
